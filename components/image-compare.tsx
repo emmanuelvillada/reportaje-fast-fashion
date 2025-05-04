@@ -64,7 +64,7 @@ export default function ImageCompare() {
       {/* Imagen "después" (medio ambiente dañado) - Capa inferior */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="/placeholder.svg?height=800&width=1200"
+          src=""
           alt="Medio ambiente dañado por residuos textiles"
           fill
           className="object-cover"
@@ -75,7 +75,7 @@ export default function ImageCompare() {
       {/* Imagen "antes" (medio ambiente saludable) - Capa superior con clip */}
       <div className="absolute inset-0 w-full h-full overflow-hidden" style={{ width: `${sliderPosition}%` }}>
         <Image
-          src="/placeholder.svg?height=800&width=1200"
+          src=""
           alt="Medio ambiente saludable"
           fill
           className="object-cover"
